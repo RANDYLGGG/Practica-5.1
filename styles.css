@@ -1,0 +1,15 @@
+label {
+    color: rgb(97, 97, 97);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+button, input {
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}

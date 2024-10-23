@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Practica 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Manejor de Formulario</h1>
+    <form action="">
+        <fieldset>
+            <legend>Captura de datos</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre" name="nombre" required><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" placeholder="Ingrese su apellido" name="apellido" size="15"><br>
+            <label for="edad" name="edad">Edad:</label>
+            <input type="number" placeholder="Ingrese la edad" name="edad"><br>
+            <label for="">Fecha de nacimineto:</label>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Ingrese el Email" name="email" required><br>
+            <label for="">Contraseña</label>
+            <input type="text" placeholder="Ingrese su Contraseña" maxlength="6" required><br><!-- maxlengt se usa para la Contraseña -->
+        </fieldset>
+        <fieldset>
+            <label for="">Genero</label><br>
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Femenino
+        <br>
+        </fieldset>
+        <fieldset>
+            <label for="">Deportes:</label><br>
+            <input type="checkbox">Futbol
+            <input type="checkbox">Ciclismo
+        <br>
+        </fieldset>
+        <fieldset id="f1">
+            <button>Enviar</button>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
